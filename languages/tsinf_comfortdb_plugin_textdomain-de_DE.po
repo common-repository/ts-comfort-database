@@ -1,0 +1,670 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TS Comfort Database\n"
+"POT-Creation-Date: 2021-08-16 11:43+0200\n"
+"PO-Revision-Date: 2021-08-16 11:45+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/filemanager.class.php:220
+msgid "Selected Elements:"
+msgstr "Ausgewählte Elemente:"
+
+#: classes/filemanager.class.php:222
+msgid "Select Action"
+msgstr "Aktion wählen"
+
+#: classes/filemanager.class.php:223
+msgid "ZIP selected files"
+msgstr "Ausgewählte Dateien komprimieren (ZIP)"
+
+#: classes/filemanager.class.php:224
+msgid "Delete selected files"
+msgstr "Ausgewählte Dateien löschen"
+
+#: classes/filemanager.class.php:226
+msgid "Go"
+msgstr "Start"
+
+#: classes/filemanager.class.php:257
+msgid "Download"
+msgstr "Download"
+
+#: classes/tsinf_comfort_db.class.php:138
+#: classes/tsinf_comfort_db.class.php:507
+#: classes/tsinf_comfort_db.class.php:584
+msgid "Primary Key"
+msgstr "Primärschlüssel"
+
+#: classes/tsinf_comfort_db.class.php:139
+msgid "Foreign Key"
+msgstr "Fremdschlüssel"
+
+#: classes/tsinf_comfort_db.class.php:140
+msgid "REFERENCES"
+msgstr "VERWEIST AUF"
+
+#: classes/tsinf_comfort_db.class.php:141
+#: classes/tsinf_comfort_db.class.php:456
+msgid "An error occured"
+msgstr "Es ist ein Fehler aufgetreten"
+
+#: classes/tsinf_comfort_db.class.php:142
+msgid "Invalid Post Data"
+msgstr "Übertragene Daten ungültig"
+
+#: classes/tsinf_comfort_db.class.php:143
+msgid "Invalid Row Data"
+msgstr "Zeilendaten ungültig"
+
+#: classes/tsinf_comfort_db.class.php:144
+msgid "Query Error"
+msgstr "Abfrage Fehler"
+
+#: classes/tsinf_comfort_db.class.php:145
+msgid "Server Response not readable"
+msgstr "Antwort des Servers ist nicht lesbar"
+
+#: classes/tsinf_comfort_db.class.php:150
+msgid "Do you really want to delete the selected rows?"
+msgstr "Die ausgewählten Datensätze wirklich löschen?"
+
+#: classes/tsinf_comfort_db.class.php:151
+#: classes/tsinf_comfort_db.class.php:1106
+msgid "Copy to clipboard"
+msgstr "In die Zwischenablage kopieren"
+
+#: classes/tsinf_comfort_db.class.php:154
+#: classes/tsinf_comfort_db.class.php:164
+#: classes/tsinf_comfort_db_exporter.php:132
+msgid "Export ist finished. Go to File Manager and download your file: "
+msgstr ""
+"Der Export ist abgeschlossen. Gehen Sie zum Datei-Manager und laden Sie Ihre "
+"Datei herunter: "
+
+#: classes/tsinf_comfort_db.class.php:155
+#: classes/tsinf_comfort_db.class.php:165
+#: classes/tsinf_comfort_db_exporter.php:133
+#: classes/tsinf_comfort_db_exporter.php:157
+#: classes/tsinf_comfort_db_exporter.php:158
+#: classes/tsinf_comfort_db_exporter.php:315
+msgid "File Manager"
+msgstr "Dateimanager"
+
+#: classes/tsinf_comfort_db.class.php:187
+msgid "Comfort DB"
+msgstr "Comfort DB"
+
+#: classes/tsinf_comfort_db.class.php:188
+msgid "Database"
+msgstr "Datenbank"
+
+#: classes/tsinf_comfort_db.class.php:197
+#: classes/tsinf_comfort_db.class.php:294
+msgid "Comfort DB Settings"
+msgstr "Comfort DB Einstellungen"
+
+#: classes/tsinf_comfort_db.class.php:198
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: classes/tsinf_comfort_db.class.php:211
+#: classes/tsinf_comfort_db.class.php:279
+#: classes/tsinf_comfort_db.class.php:311
+#: classes/tsinf_comfort_db.class.php:323
+#: classes/tsinf_comfort_db.class.php:357
+#: classes/tsinf_comfort_db.class.php:371
+#: classes/tsinf_comfort_db.class.php:385
+#: classes/tsinf_comfort_db.class.php:404
+#: classes/tsinf_comfort_db.class.php:852
+#: classes/tsinf_comfort_db.class.php:1145
+#: classes/tsinf_comfort_db.class.php:1232
+#: classes/tsinf_comfort_db.class.php:1253
+#: classes/tsinf_comfort_db.class.php:1313
+#: classes/tsinf_comfort_db.class.php:1386
+#: classes/tsinf_comfort_post_search.php:234
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Sie haben keine Berechtigung auf diese Seite zuzugreifen."
+
+#: classes/tsinf_comfort_db.class.php:266
+msgid "Loading Symbol made with loading.io"
+msgstr "Loading Symbol wurde erstellt mit loading.io"
+
+#: classes/tsinf_comfort_db.class.php:295
+msgid "Rows per Site (Limit)"
+msgstr "Datensätze pro Seite (Limit)"
+
+#: classes/tsinf_comfort_db.class.php:296
+msgid "Show Adminbar Menu"
+msgstr "Adminbar-Menü anzeigen"
+
+#: classes/tsinf_comfort_db.class.php:297
+msgid "Disable Initial load of Meta Data in Table Overview"
+msgstr ""
+"Deaktivieren des initialen Ladens von Metadaten in der Tabellenübersicht"
+
+#: classes/tsinf_comfort_db.class.php:298
+msgid "Skin"
+msgstr "Skin"
+
+#: classes/tsinf_comfort_db.class.php:314
+msgid "Main Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: classes/tsinf_comfort_db.class.php:391
+msgid "Comfort Database Style"
+msgstr "Comfort Database Erscheinungsbild"
+
+#: classes/tsinf_comfort_db.class.php:392
+msgid "WordPress Style"
+msgstr "WordPress Style"
+
+#: classes/tsinf_comfort_db.class.php:409
+msgid "New Dataset"
+msgstr "Neuer Datensatz"
+
+#: classes/tsinf_comfort_db.class.php:412
+msgid "Edit Dataset"
+msgstr "Datensatz bearbeiten"
+
+#: classes/tsinf_comfort_db.class.php:415
+msgid "Search Table"
+msgstr "Tabelle durchsuchen"
+
+#: classes/tsinf_comfort_db.class.php:420
+msgid "Back to Table"
+msgstr "Zurück zur Tabelle"
+
+#: classes/tsinf_comfort_db.class.php:451
+msgid "Affected Rows"
+msgstr "Betroffene Reihen"
+
+#: classes/tsinf_comfort_db.class.php:465
+#: classes/tsinf_comfort_db.class.php:557
+msgid "Save Data"
+msgstr "Daten speichern"
+
+#: classes/tsinf_comfort_db.class.php:506
+msgid "Unlock Key Field"
+msgstr "Schlüsselfeld entsperren"
+
+#: classes/tsinf_comfort_db.class.php:506
+msgid "Lock Key Field"
+msgstr "Schlüsselfeld sperren"
+
+#: classes/tsinf_comfort_db.class.php:513
+#: classes/tsinf_comfort_db.class.php:592
+msgid "Auto Increment Column"
+msgstr "Auto Inkrement Spalte"
+
+#: classes/tsinf_comfort_db.class.php:520
+#: classes/tsinf_comfort_db.class.php:599
+msgid "NULL possible"
+msgstr "NULL möglich"
+
+#: classes/tsinf_comfort_db.class.php:521
+#: classes/tsinf_comfort_db.class.php:527
+#: classes/tsinf_comfort_db.class.php:600
+msgid "Value is set to NULL"
+msgstr "Wert ist auf NULL gesetzt"
+
+#: classes/tsinf_comfort_db.class.php:552
+msgid "Search Data"
+msgstr "Suchen"
+
+#: classes/tsinf_comfort_db.class.php:591
+msgid "Unlock Auto Increment Field"
+msgstr "Auto Inkrement Spalte entsperren"
+
+#: classes/tsinf_comfort_db.class.php:591
+msgid "Lock Auto Increment Field"
+msgstr "Auto Inkrement Spalte sperren"
+
+#: classes/tsinf_comfort_db.class.php:908
+#: classes/tsinf_comfort_db.class.php:1261
+msgid "Back to Table-Overview"
+msgstr "Zurück zur Tabellen Übersicht"
+
+#: classes/tsinf_comfort_db.class.php:912
+msgid "Back to Search Form"
+msgstr "Zurück zum Suchformular"
+
+#: classes/tsinf_comfort_db.class.php:917
+msgid "Table"
+msgstr "Tabelle"
+
+#: classes/tsinf_comfort_db.class.php:920
+#, php-format
+msgid "%d Entries"
+msgstr "%d Einträge"
+
+#: classes/tsinf_comfort_db.class.php:922
+#, php-format
+msgid "%d Rows per Page"
+msgstr "%d Datensätze pro Seite"
+
+#: classes/tsinf_comfort_db.class.php:929
+msgid "No identifier in this table found - Read only mode"
+msgstr "Diese Tabelle enthält keine eindeutige Spalte - Nur-Lese-Modus"
+
+#: classes/tsinf_comfort_db.class.php:932
+msgid "Turn columns off and on in current view"
+msgstr "Spalten in dieser Ansicht ein-/ausblenden"
+
+#: classes/tsinf_comfort_db.class.php:932
+msgid "Columns"
+msgstr "Spalten"
+
+#: classes/tsinf_comfort_db.class.php:950
+msgid "Select an action"
+msgstr "Aktion wählen"
+
+#: classes/tsinf_comfort_db.class.php:950
+msgid "Actions"
+msgstr "Aktionen"
+
+#: classes/tsinf_comfort_db.class.php:955
+msgid "Delete selected rows"
+msgstr "Ausgewählte Zeilen löschen"
+
+#: classes/tsinf_comfort_db.class.php:956
+msgid "Export selected rows to CSV"
+msgstr "Ausgewählte Zeilen in CSV"
+
+#: classes/tsinf_comfort_db.class.php:961
+msgid "Switch to another page"
+msgstr "Seite wechseln"
+
+#: classes/tsinf_comfort_db.class.php:961
+#, php-format
+msgid "Page: %s"
+msgstr "Seite: %s"
+
+#: classes/tsinf_comfort_db.class.php:966
+msgid "Page"
+msgstr "Seite"
+
+#: classes/tsinf_comfort_db.class.php:972
+msgid "Switch to another table"
+msgstr "Tabelle wechseln"
+
+#: classes/tsinf_comfort_db.class.php:972
+#: classes/tsinf_comfort_db.class.php:1961
+#, php-format
+msgid "Table: %s"
+msgstr "Tabelle: %s"
+
+#: classes/tsinf_comfort_db.class.php:990
+msgid "Create a new dataset in table"
+msgstr "Neuen Datensatz für diese Tabelle erstellen"
+
+#: classes/tsinf_comfort_db.class.php:991
+msgid "Filter table content"
+msgstr "Tabelleninhalt filtern"
+
+#: classes/tsinf_comfort_db.class.php:992
+#: classes/tsinf_comfort_post_search.php:251
+msgid "Search"
+msgstr "Suchen"
+
+#: classes/tsinf_comfort_db.class.php:1071
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: classes/tsinf_comfort_db.class.php:1097
+msgid "Cell-Options"
+msgstr "Zell-Optionen"
+
+#: classes/tsinf_comfort_db.class.php:1109
+msgid "PHP: unserialize()"
+msgstr "PHP: unserialize()"
+
+#: classes/tsinf_comfort_db.class.php:1112
+msgid "PHP: json_decode()"
+msgstr "PHP: json_decode()"
+
+#: classes/tsinf_comfort_db.class.php:1115
+msgid "PHP: var_export()"
+msgstr "PHP: var_export()"
+
+#: classes/tsinf_comfort_db.class.php:1156
+#: classes/tsinf_comfort_db.class.php:1164
+msgid "TS Comfort DB"
+msgstr "TS Comfort DB"
+
+#: classes/tsinf_comfort_db.class.php:1168
+#, php-format
+msgid ""
+"Name of your WordPress Database: %s (%s MB) - MySQL Version %s - PHP Version "
+"%s - WordPress Version %s"
+msgstr ""
+"Name der WordPress Datenbank: %s (%s MB) - MySQL Version %s - PHP Version %s "
+"- WordPress Version %s"
+
+#: classes/tsinf_comfort_db.class.php:1179
+#: classes/tsinf_comfort_db.class.php:1180
+#: classes/tsinf_comfort_db.class.php:1277
+msgid "Table Name"
+msgstr "Tabellenname"
+
+#: classes/tsinf_comfort_db.class.php:1180
+msgid "Filter"
+msgstr "Filter"
+
+#: classes/tsinf_comfort_db.class.php:1182
+#: classes/tsinf_comfort_db_exporter.php:184
+msgid "Entries"
+msgstr "Einträge"
+
+#: classes/tsinf_comfort_db.class.php:1183
+msgid "Engine"
+msgstr "Engine"
+
+#: classes/tsinf_comfort_db.class.php:1184
+#: classes/tsinf_comfort_db_exporter.php:183
+msgid "Size"
+msgstr "Größe"
+
+#: classes/tsinf_comfort_db.class.php:1196
+msgid "CSV-Export"
+msgstr "CSV-Export"
+
+#: classes/tsinf_comfort_db.class.php:1204
+#: classes/tsinf_comfort_db.class.php:1211
+msgid "Click to load"
+msgstr "Zum laden klicken"
+
+#: classes/tsinf_comfort_db.class.php:1239
+#: classes/tsinf_comfort_db.class.php:1258
+msgid "Full Text Search"
+msgstr "Volltextsuche"
+
+#: classes/tsinf_comfort_db.class.php:1269
+msgid "Search Results in following tables"
+msgstr "Suchergebnisse in folgenden Tabellen"
+
+#: classes/tsinf_comfort_db.class.php:1278
+msgid "Search Result Count"
+msgstr "Ergebnisanzahl"
+
+#: classes/tsinf_comfort_db.class.php:1319
+#, php-format
+msgid "Full Text Search: %s in Table %s"
+msgstr "Volltextsuche: %s in Tabelle %s"
+
+#: classes/tsinf_comfort_db.class.php:1326
+msgid "Back to Overview"
+msgstr "Zurück zur Übersicht"
+
+#: classes/tsinf_comfort_db.class.php:1444
+#: classes/tsinf_comfort_db.class.php:1464
+msgid "Switch to previous page"
+msgstr "Zur vorherigen Seite wechseln"
+
+#: classes/tsinf_comfort_db.class.php:1449
+#: classes/tsinf_comfort_db.class.php:1467
+msgid "Switch to next page"
+msgstr "Zur nächsten Seite wechseln"
+
+#: classes/tsinf_comfort_db.class.php:1943
+msgid "Database Tables"
+msgstr "Datenbank Tabellen"
+
+#: classes/tsinf_comfort_db.class.php:1947
+msgid "Open your database tables directly"
+msgstr "Datenbanktabellen direkt öffnen"
+
+#: classes/tsinf_comfort_db.class.php:2112
+#: classes/tsinf_comfort_db_exporter.php:605
+msgid "Upload Directory not exists"
+msgstr "Upload-Verzeichnis ist nicht vorhanden"
+
+#: classes/tsinf_comfort_db_exporter.php:84
+msgid "TS Comfort Database: Upload directory not exists!"
+msgstr "TS Comfort Database: Upload-Verzeichnis nicht vorhanden!"
+
+#: classes/tsinf_comfort_db_exporter.php:89
+msgid "TS Comfort Database: Upload directory is not writable!"
+msgstr "TS Comfort Database: Upload-Verzeichnis ist nicht beschreibbar!"
+
+#: classes/tsinf_comfort_db_exporter.php:148
+#: classes/tsinf_comfort_db_exporter.php:149
+msgid "SQL Export BETA"
+msgstr "SQL Export BETA"
+
+#: classes/tsinf_comfort_db_exporter.php:171
+#: classes/tsinf_comfort_db_exporter.php:311
+msgid "You do not have the permission to call this page."
+msgstr "Sie haben keine Berechtigung auf diese Seite zuzugreifen."
+
+#: classes/tsinf_comfort_db_exporter.php:177
+msgid "SQL Exporter BETA"
+msgstr "Datenbank Explorer für WordPress"
+
+#: classes/tsinf_comfort_db_exporter.php:182
+msgid "Tables"
+msgstr "Tabellen"
+
+#: classes/tsinf_comfort_db_exporter.php:185
+msgid "Structure"
+msgstr "Struktur"
+
+#: classes/tsinf_comfort_db_exporter.php:186
+msgid "Data"
+msgstr "Daten"
+
+#: classes/tsinf_comfort_db_exporter.php:233
+msgid "Options"
+msgstr "Optionen"
+
+#: classes/tsinf_comfort_db_exporter.php:240
+msgid "Add CREATE DATABASE (Ignored on Split Export)"
+msgstr "CREATE DATABASE hinzufügen (Ignoriert bei Split Export)"
+
+#: classes/tsinf_comfort_db_exporter.php:248
+msgid "Disable Foreign Key Checks"
+msgstr "Deaktivieren von Fremdschlüsselprüfungen"
+
+#: classes/tsinf_comfort_db_exporter.php:256
+msgid "Summarize Script(s) in a TRANSACTION"
+msgstr "Skripte in einer TRANSACTION zusammenfassen"
+
+#: classes/tsinf_comfort_db_exporter.php:264
+msgid "Create seperate files per table (Split Export)"
+msgstr "Erstellen separater Dateien pro Tabelle (Split Export)"
+
+#: classes/tsinf_comfort_db_exporter.php:299
+msgid "Start Export"
+msgstr "Export starten"
+
+#: classes/tsinf_comfort_db_exporter.php:344
+msgid "Exporting ..."
+msgstr "Exportieren ..."
+
+#: classes/tsinf_comfort_post_search.php:67
+#: classes/tsinf_comfort_post_search.php:68
+msgid "Global Post Search"
+msgstr "Globale Post Suche"
+
+#: classes/tsinf_comfort_post_search.php:247
+msgid "TS Comfort Database: Post Search"
+msgstr "TS Comfort Database: Post Suche"
+
+#: classes/tsinf_comfort_post_search.php:250
+msgid "Enter Searchword here"
+msgstr "Suchbegriff hier eingeben"
+
+#: classes/tsinf_comfort_post_search.php:263
+msgid "Search in Post Types"
+msgstr "In Post Typen suchen"
+
+#: classes/tsinf_comfort_post_search.php:294
+msgid "Search in Posts with Status"
+msgstr "Suche in Beiträgen mit Status"
+
+#: classes/tsinf_comfort_post_search.php:322
+msgid "Search in Post Fields"
+msgstr "Suchen in Beitragsfeldern"
+
+#: classes/tsinf_comfort_post_search.php:325
+#: classes/tsinf_comfort_post_search.php:350
+#: classes/tsinf_comfort_post_search.php:363
+#: classes/tsinf_comfort_post_search.php:376
+msgid "Post-ID"
+msgstr "Beitrags-ID"
+
+#: classes/tsinf_comfort_post_search.php:329
+#: classes/tsinf_comfort_post_search.php:351
+#: classes/tsinf_comfort_post_search.php:364
+#: classes/tsinf_comfort_post_search.php:377
+msgid "Post-Title"
+msgstr "Beitrags-Titel"
+
+#: classes/tsinf_comfort_post_search.php:333
+#: classes/tsinf_comfort_post_search.php:352
+#: classes/tsinf_comfort_post_search.php:365
+#: classes/tsinf_comfort_post_search.php:378
+msgid "Post-Content"
+msgstr "Beitrags-Inhalt"
+
+#: classes/tsinf_comfort_post_search.php:337
+msgid "Post-Meta Key"
+msgstr "Beitragsfeld-Schlüssel (Meta-Key)"
+
+#: classes/tsinf_comfort_post_search.php:341
+msgid "Post-Meta Value"
+msgstr "Beitragsfeld-Wert (Meta-Value)"
+
+#: classes/tsinf_comfort_post_search.php:346
+msgid "Sort Results"
+msgstr "Ergebnisse sortieren"
+
+#: classes/tsinf_comfort_post_search.php:349
+#: classes/tsinf_comfort_post_search.php:362
+#: classes/tsinf_comfort_post_search.php:375
+msgid "--- Select Field ---"
+msgstr "--- Feld auswählen ---"
+
+#: classes/tsinf_comfort_post_search.php:356
+#: classes/tsinf_comfort_post_search.php:369
+#: classes/tsinf_comfort_post_search.php:382
+msgid "ascending"
+msgstr "aufsteigend"
+
+#: classes/tsinf_comfort_post_search.php:357
+#: classes/tsinf_comfort_post_search.php:370
+#: classes/tsinf_comfort_post_search.php:383
+msgid "descending"
+msgstr "absteigend"
+
+#: classes/tsinf_comfort_post_search.php:399
+msgid "ID"
+msgstr "ID"
+
+#: classes/tsinf_comfort_post_search.php:400
+msgid "Author"
+msgstr "Author"
+
+#: classes/tsinf_comfort_post_search.php:401
+msgid "Title"
+msgstr "Titel"
+
+#: classes/tsinf_comfort_post_search.php:402
+msgid "Status"
+msgstr "Status"
+
+#: classes/tsinf_comfort_post_search.php:403
+msgid "Postname"
+msgstr "Postname"
+
+#: classes/tsinf_comfort_post_search.php:404
+msgid "Parent"
+msgstr "Eltern-Beitrag"
+
+#: classes/tsinf_comfort_post_search.php:405
+msgid "Type"
+msgstr "Typ"
+
+#: classes/tsinf_comfort_post_search.php:406
+msgid "Comments"
+msgstr "Kommentare"
+
+#: classes/tsinf_comfort_post_search.php:408
+msgid "Created"
+msgstr "Erstellt"
+
+#: classes/tsinf_comfort_post_search.php:409
+msgid "Modified"
+msgstr "Verändert"
+
+#: classes/tsinf_comfort_post_search.php:451
+msgid "Load more Results"
+msgstr "Mehr Ergebnisse laden"
+
+#: plugin.php:61
+msgid ""
+"TS Comfort DB Message: Please be careful by using this plugin. If you work "
+"on your wordpress database you work on the open heart of wordpress. Be sure, "
+"you know what you do! Make a backup of your database and ensure that the "
+"created backup is working, before working on the database with this plugin!"
+msgstr ""
+"TS Comfort DB Nachricht: Bitte seien Sie vorsichtig mit diesem Plugin. Wenn "
+"Sie an Ihrer WordPress-Datenbank arbeiten, arbeiten Sie am offenen Herzen "
+"von WordPress. Seien Sie sicher, Sie wissen, was Sie tun! Machen Sie eine "
+"Sicherungskopie Ihrer Datenbank und stellen Sie sicher, dass die erstellte "
+"Sicherung funktioniert, bevor Sie an der Datenbank mit diesem Plugin "
+"arbeiten!"
+
+#: plugin.php:61
+msgid "I know the risk. Do not show this message again"
+msgstr "Ich kenne das Risiko. Nachricht dauerhaft ausblenden"
+
+#. Plugin Name of the plugin/theme
+msgid "TS Comfort Database"
+msgstr "TS Comfort Database"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.spiess-informatik.de/wordpress-plugins/ts-comfort-database/"
+msgstr ""
+"https://www.spiess-informatik.de/wordpress-plugins/ts-comfort-database/"
+
+#. Description of the plugin/theme
+msgid "Database Explorer for WordPress"
+msgstr "Datenbank Explorer für WordPress"
+
+#. Author of the plugin/theme
+msgid "Tobias Spiess"
+msgstr "Tobias Spiess"
+
+#. Author URI of the plugin/theme
+msgid "https://www.spiess-informatik.de"
+msgstr "https://www.spiess-informatik.de"
+
+#, fuzzy
+#~| msgid "Database Explorer for WordPress"
+#~ msgid "TS Database Exporter"
+#~ msgstr "Datenbank Explorer für WordPress"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"
+
+#~ msgid "http://comfortdb.spiess-informatik.de"
+#~ msgstr "http://comfortdb.spiess-informatik.de"
+
+#~ msgid "HTML allowed"
+#~ msgstr "HTML erlaubt"

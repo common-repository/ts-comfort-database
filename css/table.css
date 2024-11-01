@@ -1,0 +1,519 @@
+#tsinf_comfortdb_table_header_elements.scrolldown
+{
+    background: white;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+    position: fixed;
+    right: 20px;
+    top: 32px;
+    z-index: 3;
+}
+
+#tsinf_comfortdb_table_header_elements.scrolldown #tsinf_comfortdb_headline
+{
+    font-size: 20px;
+    height: 22px;
+    line-height: 18px;
+    margin: 12px 0 8px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#tsinf_comfortdb_table_header_elements.scrolldown .tsinf_comfortdb_back_to_last_button
+{
+    font-size: 12px;
+    height: 25px;
+    margin-bottom: 10px;
+    padding: 2px 15px 7px 30px;
+}
+
+#tsinf_comfortdb_table_header_elements.scrolldown .tsinf_comfortdb_back_to_last_button .arrow-left
+{
+    top: 7px;
+}
+
+#tsinf_comfortdb_table_header_elements .tsinf_comfort_db_header_mobile_switch
+{
+    display: none;
+}
+
+#tsinf_comfortdb_table_header_elements.scrolldown .tsinf_comfort_db_header_mobile_switch
+{
+    border-top: 1px solid #0073aa;
+    display: block;
+    margin: 10px 0 0 0;
+    padding: 10px 0 8px 0;
+    text-align: center;
+    width: 100%;
+}
+
+#tsinf_comfortdb_table_header_elements.scrolldown .tsinf_comfort_db_header_mobile_switch .arrow-up
+{
+    border-bottom: 15px solid black;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.tsinf_comfortdb_back_to_last_button
+{
+    float: right;
+    margin: 10px 20px 20px 0;
+    max-width: 28%;
+}
+
+.tsinf_comfortdb_toolbar.tabledata
+{
+    clear: both;
+    margin-right: 20px;
+    width: auto;
+}
+
+.tsinf_comfortdb_toolbar.tabledata #tsinf_comfortdb_table_filter
+{
+    border: none;
+    border-radius: 3px;
+    display: inline-block;
+    min-width: 250px;
+}
+
+.tsinf_comfortdb_toolbar.tabledata #select_page
+{
+    min-width: 120px;
+}
+
+.tsinf_comfortdb_toolbar.tabledata #select_action
+{
+    min-width: 200px;
+}
+
+.tsinf_comfortdb_toolbar.tabledata #switch_page:after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.tsinf_comfortdb_toolbar.tabledata #switch_page > .pagination_arrow,
+.tsinf_comfortdb_toolbar.tabledata #switch_page > a:link.pagination_arrow,
+.tsinf_comfortdb_toolbar.tabledata #switch_page > a:visited.pagination_arrow
+{
+    background: #7db9e8;
+    background: -moz-linear-gradient(top, #7db9e8 0%, #0073aa 100%);
+    background: -webkit-linear-gradient(top, #7db9e8 0%,#0073aa 100%);
+    background: linear-gradient(to bottom, #7db9e8 0%,#0073aa 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#0073aa',GradientType=0 );
+    border-radius: 3px;
+    box-shadow: 0 -3px 0 rgba(0,0,0,.3) inset;
+    
+    box-sizing: border-box;
+    color: white;
+    
+    display: block;
+    float: left;
+    height: 30px;
+    
+    position: relative;
+    
+    text-decoration: none;
+    
+    width: 30px;
+}
+
+.tsinf_comfortdb_toolbar.tabledata #switch_page > a:hover
+{
+    box-shadow: 0 -3px 0 rgba(255,255,255,.3) inset !important;
+}
+
+.tsinf_comfortdb_toolbar.tabledata #switch_page > a:first-child
+{
+    margin-right: 10px;
+}
+
+.tsinf_comfortdb_toolbar.tabledata #switch_page > .pagination_arrow.disabled,
+.tsinf_comfortdb_toolbar.tabledata #switch_page > a:link.pagination_arrow.disabled,
+.tsinf_comfortdb_toolbar.tabledata #switch_page > a:visited.pagination_arrow.disabled
+{
+    display: none;
+}
+
+.tsinf_comfortdb_toolbar.tabledata #switch_page > .pagination_arrow > .arrow-left,
+.tsinf_comfortdb_toolbar.tabledata #switch_page > .pagination_arrow > .arrow-right
+{
+    display: block;
+    left: 12px;
+    position: absolute;
+    top: 9px;
+}
+
+.tsinf_comfortdb_toolbar.tabledata #search_table
+{
+    width: auto;
+}
+
+.tsinf_comfortdb_table_data_wrapper
+{
+    margin-right: 20px;
+	margin-top: 20px;
+    overflow-x: scroll;
+    width: 99%;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_headline
+{
+	position: relative;
+}
+
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_headline
+{
+	background: #0073aa;
+	color: white;
+	font-size: 18px;
+    height: 49px;
+    padding: 0;
+    text-align: left;
+}
+
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr > th:first-child
+{
+    padding-left: 15px;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_headline > a,
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_headline > a:link,
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_headline > a:visited
+{
+	display: block;
+	height: 100%;
+	position: relative;
+}
+
+
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_headline > a,
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_headline > a:link,
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_headline > a:visited
+{
+    box-sizing: border-box;
+    color: white;
+    padding: 15px 40px 15px 15px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_headline > a:hover
+{
+    background: rgba(255,255,255,0.6);
+}
+
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_headline > a.active
+{
+    background: rgba(0,0,0,0.6);
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_headline .tsinf_arrow
+{
+	bottom: 0;
+	margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_headline .tsinf_arrow
+{
+	right: 15px;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_metadata
+{
+	background: rgba(0,0,0,0.9);
+	color: white;
+	font-size: 12px;
+	padding: 10px 15px;
+    position: relative;
+    vertical-align: top;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_metadata > .meta_info
+{
+    display: block;
+    text-align: left;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_metadata > .meta_info.primary_key
+{
+    color: #cdb79e;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_metadata > .meta_info.foreign_key
+{
+    color: #0073aa;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_metadata > .meta_info.foreign_key:hover
+{
+    cursor: pointer;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_metadata > .meta_info.foreign_key_details
+{
+    color: #0073aa;
+    display: none;
+    font-size: 10px;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead tr th.tsinf_comfortdb_column_metadata > .meta_info.foreign_key_details .fkdetail_item
+{
+    display: block;
+    white-space: nowrap;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead .tsinf_cdb_progress_row th
+{
+	background: white;
+	padding: 25px 15px;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table thead .tsinf_cdb_progress_row th progress
+{
+	max-width: 500px;
+	width: 100%;
+}
+
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table
+{
+	border: 1px solid #000;
+	border-collapse: collapse;
+    min-width: 100%;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr td
+{
+	padding: 15px;
+	position: relative;
+	vertical-align: middle;
+}
+
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr td
+{
+	border-bottom: 1px solid #000;
+	font-size: 16px;
+	padding: 15px;
+	position: relative;
+}
+
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr td:not(.cell_checkbox):not(.cell_link)
+{
+	padding-right: 20px;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr:not(.prepared_to_delete) td .tcellmenubutton
+{
+	background: url(../images/menu.svg) no-repeat transparent center center;
+	background-size: 15px 15px;
+	bottom: 0;
+    content: "";
+    cursor: pointer;
+    display: none;
+    height: 15px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr:not(.prepared_to_delete) td .tcellmenu_container
+{
+    background: white;
+	border-bottom: 3px solid #444;
+	bottom: 0;    
+		    
+    -webkit-box-shadow: 0px 0px 9px 3px rgb(41 41 41 / 25%);
+    -moz-box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    box-shadow: 0px 0px 9px 3px rgb(41 41 41 / 25%);
+    
+    box-sizing: border-box;
+    display: none;
+	height: 205px;
+    margin: auto;
+    position: absolute;
+	right: 0;
+	top: 0;
+    z-index: 9;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr:not(.prepared_to_delete) td .tcellmenu_container .multiplestate_header
+{
+    box-sizing: border-box;
+    color: #444;
+    display: block;
+    height: 41px;
+    padding: 10px 30px 10px 18px;
+    position: relative;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr:not(.prepared_to_delete) td .tcellmenu_container .multiplestate_header .header_text
+{
+	display: block;
+	font-weight: bold;
+	text-align: left;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr:not(.prepared_to_delete) td .tcellmenu_container .multiplestate_header .menu_close
+{
+	cursor: pointer;
+	position: absolute;
+	right: 5px;
+	top: 7px;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr:not(.prepared_to_delete) td .tcellmenu_container .tcellmenu_option
+{
+	align-items: center;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+	border-top: 1px solid #dedede;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	min-height: 40px;
+	padding: 10px 30px 10px 18px;
+	width: 275px;
+	z-index: 0;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr:not(.prepared_to_delete) td .tcellmenu_container .tcellmenu_option .option_text
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr:not(.prepared_to_delete) td:hover .tcellmenubutton
+{
+	display: block;
+}
+
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr:nth-child(odd) td
+{
+	background: #eee;
+}
+
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr:nth-child(even) td
+{
+	background: white;
+}
+
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tbody tr.prepared_to_delete td
+{
+    background: #a90329 !important;
+    color: white !important;
+}
+
+.tscdb_skin_tscdb .tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tr td .dbcontentcodewrap
+{
+	width: 100%;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tr td.col_data_is_null
+{
+	text-align: center;
+}
+
+.tsinf_comfortdb_table_data_wrapper .tsinf_comfortdb_table tr td.col_data_is_null .column_is_null
+{
+	border: 3px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+	padding: 3px 4px;
+	text-align: center;
+}
+
+#wpbody #wpbody-content .tsinf_comfortdb_table_data_wrapper
+{
+	min-height: 300px;
+	position: relative;
+}
+
+#wpbody #wpbody-content .tsinf_comfortdb_table_data_wrapper #tsinf_comfortdb_overlay
+{
+	align-items: center;
+	background: rgba(0,0,0,0.8);
+	bottom: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	padding: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+}
+
+#wpbody #wpbody-content .tsinf_comfortdb_table_data_wrapper #tsinf_comfortdb_overlay #tsinf_comfortdb_overlay_inner
+{
+	background: white;
+	height: 95%;
+	overflow-y: scroll;
+	padding: 75px 40px 40px 40px;
+	position: relative;
+	width: 95%;
+}
+
+#wpbody #wpbody-content .tsinf_comfortdb_table_data_wrapper #tsinf_comfortdb_overlay #tsinf_comfortdb_overlay_inner .tsinf_ovl_toolbar
+{
+	align-items: center;
+    background: #eee;
+    box-sizing: border-box;
+    display: flex;
+    height: 50px;
+    left: 0;
+	padding: 0 30px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#wpbody #wpbody-content .tsinf_comfortdb_table_data_wrapper #tsinf_comfortdb_overlay #tsinf_comfortdb_overlay_inner .tsinf_ovl_toolbar .tsinf_ovl_toolbar_item
+{
+	color: #0073aa;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#wpbody #wpbody-content .tsinf_comfortdb_table_data_wrapper #tsinf_comfortdb_overlay #tsinf_comfortdb_overlay_inner .tsinf_ovl_toolbar .tsinf_close_ovl
+{
+	align-items: center;
+	bottom: 0;
+	cursor: pointer;
+	display: flex;
+	margin: auto;
+	position: absolute;
+	right: 15px;
+	top: 0;
+}
+
+#wpbody #wpbody-content .tsinf_comfortdb_table_data_wrapper #tsinf_comfortdb_overlay #tsinf_comfortdb_overlay_inner textarea
+{
+	min-height: 100%;
+	width: 100%;
+}
+
+
+
+

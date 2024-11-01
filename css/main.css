@@ -1,0 +1,443 @@
+#tsinf_comfortdb_headline
+{
+    float: left;
+    font-size: 26px;
+    line-height: 40px;
+    margin: 8px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+    white-space: nowrap;
+    width: 70%;
+}
+
+#tsinf_comfortdb_headline.nofloat
+{
+    float: none;
+    margin-right: 20px;
+    width: 100%;
+}
+
+#tsinf_comfortdb_read_only_box
+{
+    background: #ffaf00;
+    border-radius: 5px;
+    box-sizing: border-box;
+    clear: both;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto 5px auto;
+    max-width: 95%;
+    padding: 4px 5px 5px 5px;
+    text-align: center;
+}
+
+progress.tsinf-progress-bar
+{
+	-webkit-appearance: none;
+	appearance: none;
+	display: block;
+	width: 100%;
+}
+
+progress.tsinf-progress-bar::-webkit-progress-bar 
+{
+	background-color: #e5e5e5;
+}
+
+progress.tsinf-progress-bar::-webkit-progress-value 
+{
+	background-color: #006799;
+}
+
+.tsinf_comfort_database_progress_success
+{
+	color: green;
+	font-weight: 700;
+}
+
+.tsinf_comfort_database_progress_error
+{
+	color: #ff0000;
+	font-weight: 700;
+}
+
+.tsinf_comfortdb_toolbar
+{
+    background: rgba(0,0,0,0.8);
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 11px 10px 0 10px;
+    width: 100%;
+}
+
+.tsinf_comfortdb_toolbar:after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.tsinf_comfortdb_toolbar > *
+{
+    display: block;
+    float: left;
+    margin: 0 25px 10px 0;
+}
+
+.tsinf_comfortdb_back_to_last_button
+{
+    background: #7db9e8;
+    background: -moz-linear-gradient(top, #7db9e8 0%, #0073aa 100%);
+    background: -webkit-linear-gradient(top, #7db9e8 0%,#0073aa 100%);
+    background: linear-gradient(to bottom, #7db9e8 0%,#0073aa 100%);
+    border-radius: 5px;
+    box-shadow: 0 -3px 0 rgba(0,0,0,.3) inset;
+    box-sizing: border-box;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    overflow: hidden;
+    padding: 10px 15px 12px 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.tsinf_loading_button
+{
+	border: 1px solid #0073aa  !important;
+	box-shadow: none  !important;
+	color: #0073aa !important;
+	position: relative;
+}
+
+.tsinf_loading_button:before
+{
+	background: url(../images/loading-symbol.svg) no-repeat white !important;
+	background-position: center center !important;
+	background-size: 75% 75% !important;
+	border-radius: 3px;
+	bottom: 0;
+	box-sizing: border-box;
+	content: "";
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index:9
+}
+
+@media all and (max-width: 1180px)
+{
+    #tsinf_comfortdb_headline
+    {
+        width: 75%;
+    }
+    
+    .tsinf_comfortdb_back_to_last_button
+    {
+        padding: 10px !important;
+        width: 40px;
+    }
+    
+    .tsinf_comfortdb_back_to_last_button > span:last-child
+    {
+        display: none;
+    }
+}
+
+.tsinf_comfortdb_back_to_last_button:hover
+{
+    box-shadow: 0 -3px 0 rgba(255,255,255,.3) inset;
+    color: white;
+}
+
+.tsinf_comfortdb_back_to_last_button .arrow-left
+{
+    display: block;
+    left: 15px;
+    position: absolute;
+    top: 15px;    
+}
+
+.tsinf_select_menu
+{
+    background: white;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: black;
+    display: inline-block;
+    height: 28px;
+    min-width: 250px;
+    padding: 5px;
+    position: relative;
+}
+
+.tsinf_select_menu:hover
+{
+    cursor: pointer;
+}
+
+.tsinf_select_menu .tsinf_select_menu_label_wrapper
+{
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    padding: 4px;
+    position: absolute;
+    text-overflow: ellipsis;
+    top: 0;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.tsinf_select_menu .tsinf_select_menu_label_wrapper:hover
+{
+    background: #e5e5e5;
+    font-weight: bold;
+}
+
+.tsinf_select_menu .tsinf_arrow
+{ 
+    background: #7db9e8;
+    background: -moz-linear-gradient(top, #7db9e8 0%, #0073aa 100%);
+    background: -webkit-linear-gradient(top, #7db9e8 0%,#0073aa 100%);
+    background: linear-gradient(to bottom, #7db9e8 0%,#0073aa 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#0073aa',GradientType=0 );
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+}
+
+.tsinf_select_menu .tsinf_arrow .arrow-down
+{
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.tsinf_select_menu .tsinf_select_menu_options_wrap,
+.tsinf_select_symbol_button .tsinf_select_menu_options_wrap
+{
+    background: white;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    
+    box-sizing: border-box;
+    display: none;
+    left: 0;
+    min-width: 100%;
+    padding: 5px 0 0 0;
+    position: absolute;
+    top: 37px;
+    width: auto;
+    z-index: 9;
+}
+
+.tsinf_select_menu .tsinf_select_menu_options_wrap .tsinf_select_menu_items
+{
+    display: block;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.tsinf_select_symbol_button .arrow-up
+{
+    display: none;
+    position: absolute;
+    right: 17px;
+    top: 32px;
+}
+
+.tsinf_select_symbol_button .tsinf_select_menu_options_wrap
+{
+    left: auto !important;
+    right: 0 !important;
+}
+
+.tsinf_select_menu .tsinf_select_menu_options_wrap .arrow-up
+{
+    position: absolute;
+    right: 17px;
+    top: -5px;
+}
+
+.tsinf_select_menu .tsinf_select_menu_options_wrap .tsinf_select_menu_option,
+.tsinf_select_symbol_button .tsinf_select_menu_options_wrap .tsinf_select_menu_option,
+.tsinf_select_menu .tsinf_select_menu_options_wrap a:link.tsinf_select_menu_option,
+.tsinf_select_menu .tsinf_select_menu_options_wrap a:visited.tsinf_select_menu_option,
+.tsinf_select_symbol_button .tsinf_select_menu_options_wrap a:link.tsinf_select_menu_option,
+.tsinf_select_symbol_button .tsinf_select_menu_options_wrap a:visited.tsinf_select_menu_option
+{
+    box-sizing: border-box;
+    color: black;
+    display: block;
+    height: 28px;
+    padding: 5px;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+}
+
+.tsinf_select_menu .tsinf_select_menu_options_wrap .tsinf_select_menu_option:hover,
+.tsinf_select_symbol_button .tsinf_select_menu_options_wrap .tsinf_select_menu_option:hover
+{
+    background: #e5e5e5;
+    font-weight: bold;
+}
+
+.tsinf_select_symbol_button .tsinf_select_menu_options_wrap a:link.tsinf_select_menu_option,
+.tsinf_select_symbol_button .tsinf_select_menu_options_wrap a:visited.tsinf_select_menu_option
+{
+    color: black;
+    text-decoration: none;
+}
+
+.tsinf_select_symbol_button,
+.tsinf_symbol_button
+{
+    background: #7db9e8;
+    background: -moz-linear-gradient(top, #7db9e8 0%, #0073aa 100%);
+    background: -webkit-linear-gradient(top, #7db9e8 0%,#0073aa 100%);
+    background: linear-gradient(to bottom, #7db9e8 0%,#0073aa 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#0073aa',GradientType=0 );
+    border-radius: 3px;
+    box-shadow: 0 -3px 0 rgba(0,0,0,.3) inset;
+    
+    box-sizing: border-box;
+    color: white;
+    
+    display: inline-block;
+    height: 30px;
+    padding: 4px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    
+    width: 30px;
+}
+
+.tsinf_select_symbol_button:hover,
+.tsinf_symbol_button:hover
+{
+    cursor: pointer;
+}
+
+.tsinf_symbol_button:hover
+{
+    box-shadow: 0 -3px 0 rgba(255,255,255,.3) inset;
+    color: white;
+}
+
+.tsinf_symbol_button.red
+{
+    background: #D80000;
+    background: -moz-linear-gradient(top, #d80000 0%, #880000 100%);
+    background: -webkit-linear-gradient(top, #d80000 0%,#880000 100%);
+    background: linear-gradient(to bottom, #d80000 0%,#880000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d80000', endColorstr='#880000',GradientType=0 );	
+}
+
+.tsinf_select_symbol_button .tsinf_select_menu_options_wrap
+{
+    border-radius: 3px;
+    overflow: visible;
+}
+
+.plus-symbol:after
+{
+    content: "+";
+    display: inline-block;
+    font-size: 27px;
+    line-height: 15px;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid black;
+}
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent; 
+  border-right: 5px solid black; 
+}
+
+.arrow-up.white {
+  border-bottom: 5px solid white;
+}
+
+.arrow-down.white {
+  border-top: 5px solid white;
+}
+
+.arrow-right.white {
+  border-left: 5px solid white;
+}
+
+.arrow-left.white {
+  border-right: 5px solid white; 
+}
+
+#tsinf_comfortdb_plugin_admin_page_footer
+{
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Adminbar */
+#wp-admin-bar-tsinf_comfortdb_plugin_adminbar_menu .ab-sub-wrapper
+{
+	max-height: 400px;
+	overflow-y: scroll;
+}
+
+
+

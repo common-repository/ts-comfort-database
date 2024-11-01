@@ -1,0 +1,123 @@
+#tssesl_gps_filter_box_files .files_toolbar
+{
+	align-items: center;
+	background: #f1f1f1;
+	box-sizing: border-box;
+	display: flex;
+	padding: 10px;
+	position: sticky;
+	left: 0;
+	right: 0;
+	top: 40px;
+	width: 100%;
+	z-index: 9;
+}
+
+#tssesl_gps_filter_box_files .files_toolbar .tsinf_symbol_button.tsinf_fman_batch_action_submit
+{
+	min-width: 30px;
+	width: auto;
+}
+
+#tssesl_gps_filter_box_files .files_toolbar .toolbar_element_wrap
+{
+	align-items: center;
+	display: flex;
+}
+
+#tssesl_gps_filter_box_files .files_toolbar .toolbar_label
+{
+	margin-right: 10px;
+}
+
+#tssesl_gps_filter_box_files .filter_box_headline.tsinf_search_slug_line
+{
+	margin-bottom: 0;
+}
+
+#tssesl_gps_filter_box_files .tsinf_search_slug_line.even
+{
+	background: #e5e5e5;
+}
+
+ #tssesl_gps_filter_box_files .tsinf_search_slug_line .tssesl_gps_filter_box_col
+{
+	padding: 10px 5px;
+}
+
+ #tssesl_gps_filter_box_files
+{
+	box-sizing: border-box;
+	height: 500px;
+	padding: 0;
+	width: 91%;
+}
+
+ #tssesl_gps_filter_box_files .filter_box_headline .tsinf_file_utils
+{
+	text-align: left;
+}
+
+ #tssesl_gps_filter_box_files .tsinf_search_slug_line
+{
+	width: 100%;
+}
+
+ #tssesl_gps_filter_box_files .tsinf_search_slug_line .tsinf_file_check
+{
+	padding-left: 10px;
+	text-align: left;
+	width: 50px;
+}
+
+#tssesl_gps_filter_box_files .filter_box_headline.tsinf_search_slug_line .tsinf_file_check input
+{
+	top: -2px;
+}
+
+#tssesl_gps_filter_box_files .tsinf_search_slug_line .tsinf_file_check input
+{
+	position: relative;
+	top: 1px;
+}
+
+ #tssesl_gps_filter_box_files .tsinf_search_slug_line .tsinf_file_name
+{
+	text-align: left;
+	width: calc(70% - 190px);
+}
+
+ #tssesl_gps_filter_box_files .tsinf_search_slug_line .tsinf_file_size
+{
+	text-align: center;
+	width: 10%;
+}
+
+ #tssesl_gps_filter_box_files .tsinf_search_slug_line .tsinf_file_date
+{
+	text-align: center;
+	width: 20%;
+}
+
+ #tssesl_gps_filter_box_files .tsinf_search_slug_line .tsinf_file_utils
+{
+	text-align: right;
+	width: 110px;
+}
+
+ #tssesl_gps_filter_box_files .tsinf_search_slug_line .tsinf_file_utils a:link,
+ #tssesl_gps_filter_box_files .tsinf_search_slug_line .tsinf_file_utils a:visited,
+ #tssesl_gps_filter_box_files .tsinf_search_slug_line .tsinf_file_utils .tsinf_fm_util_lnk
+{
+	color: #0073aa;
+	cursor: pointer;
+	text-decoration: underline;
+	transition-duration: .05s;
+	transition-property: border,background,color;
+	transition-timing-function: ease-in-out;
+}
+
+ #tssesl_gps_filter_box_files .tsinf_search_slug_line .tsinf_file_utils .tsinf_fm_util_lnk:hover
+{
+	color: #00a0d2;
+}

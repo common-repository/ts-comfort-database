@@ -1,0 +1,277 @@
+#ts_comfortdb_global_post_search_string
+{
+	display: inline-block;
+	float: left;
+	width: 90%;
+}
+
+#ts_comfortdb_global_post_search_submit
+{
+	border: none;
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	height: 42px;
+	padding: 10px;
+	position: relative;
+	top: -1px;
+	width: 5%;
+}
+
+.ts_comfortdb_global_post_search_label
+{
+	position: relative;
+	top: -5px;
+}
+
+.ts_comfortdb_global_post_search_label.attachment
+{
+	padding: 0;
+	width: auto;
+}
+
+#tssesl_gps_filter_container
+{
+	clear: both;
+	width: 95%;
+}
+
+#tssesl_gps_filter_container > div:first-child
+{
+	margin-left: 0;
+}
+
+#tssesl_gps_filter_container > div:last-child
+{
+	margin-right: 0;
+}
+
+#tssesl_gps_filter_container:after
+{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.tssesl_gps_filter_box
+{
+	background: white;
+	border: 1px solid #ddd;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+	box-sizing: border-box;
+	float: left;
+	height: 175px;
+	overflow: scroll;
+	margin: 10px;
+	min-width: 280px;
+	padding: 10px;
+	width: calc(25% - 15px);
+}
+
+.tssesl_gps_filter_box.widefat
+{
+	margin: 0;
+	width: 100%;
+}
+
+.tssesl_gps_filter_box .filter_box_headline
+{
+	font-weight: bold;
+	margin: 0 0 12px 0;
+}
+
+.tssesl_gps_filter_box > .tsinf_search_slug_line
+{
+	box-sizing: border-box;
+	display: flex;
+}
+
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col
+{
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.tssesl_gps_filter_box .tsinf_search_slug_line.text-center,
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col.text-center
+{
+	text-align: center;
+}
+
+.tssesl_gps_filter_box.width-10,
+.tssesl_gps_filter_box .tsinf_search_slug_line.width-10,
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col.width-10
+{
+	width: 10%;
+}
+
+.tssesl_gps_filter_box.width-20,
+.tssesl_gps_filter_box .tsinf_search_slug_line.width-20,
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col.width-20
+{
+	width: 20%;
+}
+
+.tssesl_gps_filter_box.width-30,
+.tssesl_gps_filter_box .tsinf_search_slug_line.width-30,
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col.width-30
+{
+	width: 30%;
+}
+
+.tssesl_gps_filter_box.width-40,
+.tssesl_gps_filter_box .tsinf_search_slug_line.width-40,
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col.width-40
+{
+	width: 40%;
+}
+
+.tssesl_gps_filter_box.width-50,
+.tssesl_gps_filter_box .tsinf_search_slug_line.width-50,
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col.width-50
+{
+	width: 50%;
+}
+
+.tssesl_gps_filter_box.width-60,
+.tssesl_gps_filter_box .tsinf_search_slug_line.width-60,
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col.width-60
+{
+	width: 60%;
+}
+
+.tssesl_gps_filter_box.width-70,
+.tssesl_gps_filter_box .tsinf_search_slug_line.width-70,
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col.width-70
+{
+	width: 70%;
+}
+
+.tssesl_gps_filter_box.width-80,
+.tssesl_gps_filter_box .tsinf_search_slug_line.width-80,
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col.width-80
+{
+	width: 80%;
+}
+
+.tssesl_gps_filter_box.width-90,
+.tssesl_gps_filter_box .tsinf_search_slug_line.width-90,
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col.width-90
+{
+	width: 90%;
+}
+
+.tssesl_gps_filter_box.width-100,
+.tssesl_gps_filter_box .tsinf_search_slug_line.width-100,
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col.width-100
+{
+	width: 100%;
+}
+
+.tssesl_gps_filter_box > .tsinf_search_slug_line .ts_comfortdb_global_post_search_label.order_by_1,
+.tssesl_gps_filter_box > .tsinf_search_slug_line .ts_comfortdb_global_post_search_label.order_by_2,
+.tssesl_gps_filter_box > .tsinf_search_slug_line .ts_comfortdb_global_post_search_label.order_by_3
+{
+	display: inline-block;
+	width: 5%;
+}
+
+.tssesl_gps_filter_box > .tsinf_search_slug_line #ts_comfortdb_global_post_search_order_by_1,
+.tssesl_gps_filter_box > .tsinf_search_slug_line #ts_comfortdb_global_post_search_order_by_2,
+.tssesl_gps_filter_box > .tsinf_search_slug_line #ts_comfortdb_global_post_search_order_by_3
+{
+	display: inline-block;
+	width: 55%;
+}
+
+.tssesl_gps_filter_box > .tsinf_search_slug_line #ts_comfortdb_global_post_search_order_1,
+.tssesl_gps_filter_box > .tsinf_search_slug_line #ts_comfortdb_global_post_search_order_2,
+.tssesl_gps_filter_box > .tsinf_search_slug_line #ts_comfortdb_global_post_search_order_3
+{
+	display: inline-block;
+	width: 40%;
+}
+
+#ts_comfortdb_global_post_search_results_main.tsinf_comfortdb_table_data_wrapper
+{
+	width: 95%;
+}
+
+#ts_comfortdb_global_post_search_results_main.tsinf_comfortdb_table_data_wrapper tr th
+{
+	padding: 15px;
+}
+
+#ts_comfortdb_global_post_search_results_main.tsinf_comfortdb_table_data_wrapper tr .col_data_id,
+#ts_comfortdb_global_post_search_results_main.tsinf_comfortdb_table_data_wrapper tr .col_data_author,
+#ts_comfortdb_global_post_search_results_main.tsinf_comfortdb_table_data_wrapper tr .col_data_comment_count,
+#ts_comfortdb_global_post_search_results_main.tsinf_comfortdb_table_data_wrapper tr .col_data_created,
+#ts_comfortdb_global_post_search_results_main.tsinf_comfortdb_table_data_wrapper tr .col_data_modified
+{
+	text-align: center;
+}
+
+#ts_comfortdb_global_post_search_results_main.tsinf_comfortdb_table_data_wrapper tr .col_data_parent
+{
+	text-align: right;
+}
+
+#ts_comfortdb_global_post_search_results_main.tsinf_comfortdb_table_data_wrapper tr .col_data_created,
+#ts_comfortdb_global_post_search_results_main.tsinf_comfortdb_table_data_wrapper tr .col_data_modified
+{
+	min-width: 190px;
+}
+
+.tsinf_ps_load_more_container
+{
+	display: flex;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+.tsinf_ps_load_more_container .tsinf_ps_load_more_button
+{
+	font-size: 16px;
+	padding: 5px 10px 4px 10px;
+	text-transform: uppercase;
+	width: auto;
+}
+
+/*
+#ts_comfortdb_global_post_search_results_main table
+{
+	width: 95%;
+}
+
+#ts_comfortdb_global_post_search_results_main table tr th
+{
+	background: #006799;
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+}
+
+#ts_comfortdb_global_post_search_results_main table tr td
+{
+	padding: 5px;
+	text-align: center;
+}
+
+#ts_comfortdb_global_post_search_results_main table tr.even td
+{
+	background: white;
+}
+
+#ts_comfortdb_global_post_search_results_main table tr.odd td
+{
+	background: #fafafa;
+}
+*/
+
+
+
+
+
+
+
+

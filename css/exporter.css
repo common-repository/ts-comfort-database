@@ -1,0 +1,141 @@
+.tsinf-db-export-main-page-wrapper .tssesl_gps_filter_box
+{
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.tsinf-db-export-main-page-wrapper #tssesl_gps_filter_box_tables
+{
+	height: 500px;
+	padding: 0;
+}
+
+.tsinf-db-export-main-page-wrapper .tsinf_symbol_button
+{
+	border: none;
+	width: auto;
+}
+
+#ts-db-export-start-export-settings-form:after
+{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+#ts-db-export-start-export-settings-form .tsinf_db_exporter_submit_container
+{
+	box-sizing: border-box;
+	float: left;
+	padding: 30px 0 0 15px;
+	width: 30%;
+}
+
+#ts-db-export-start-export-settings-form .tsinf_db_exporter_submit_container:after
+{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+#ts-db-export-start-export-settings-form .tsinf_db_exporter_submit_container label
+{
+	display: block;
+	margin: 0 0 10px 0;
+}
+
+#ts-db-export-start-export-settings-form .tsinf_db_exporter_submit_container .tsinf_symbol_button
+{
+	border: none;
+	display: block;
+	float: left;
+	margin: 30px 15px 0 0;
+	min-width: 145px;
+	width: auto;
+}
+
+#ts-db-export-start-export-settings-form .tsinf_db_exporter_submit_container  #ts-db-export-abort-export
+{
+	display: none;
+}
+
+#tsinf-db-export-info-area
+{
+	box-sizing: border-box;
+	display: block;
+	float: left;
+	margin: 10px;
+	width: 30%;
+}
+
+#tsinf-db-export-info-area .tsinf-progress-bar
+{
+	height: 30px;
+	margin: 10px 0 15px 0;
+}
+
+#tsinf-db-export-info-area .progress-table-wrap:after,
+#tsinf-db-export-info-area .progress-total-wrap:after
+{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+#tsinf-db-export-info-area .progress-table-wrap .progress-table-number,
+#tsinf-db-export-info-area .progress-total-wrap .progress-total-number
+{
+	float: right;	
+}
+
+.tsinf-db-export-main-page-wrapper #tssesl_gps_filter_box_tables .tsinf_search_slug_line.even,
+.tsinf-db-export-main-page-wrapper #tssesl_gps_filter_box_files .tsinf_search_slug_line.even
+{
+	background: #e5e5e5;
+}
+
+.tsinf-db-export-main-page-wrapper  #tssesl_gps_filter_box_tables .tsinf_search_slug_line .tssesl_gps_filter_box_col,
+.tsinf-db-export-main-page-wrapper  #tssesl_gps_filter_box_files .tsinf_search_slug_line .tssesl_gps_filter_box_col,
+.tsinf-db-export-main-page-wrapper  #tssesl_gps_filter_box_options .tsinf_search_slug_line .tssesl_gps_filter_box_col
+{
+	padding: 10px 5px;
+}
+
+.tsinf-db-export-main-page-wrapper  #tssesl_gps_filter_box_options
+{
+	padding: 0;
+}
+
+.tsinf-db-export-main-page-wrapper  #tssesl_gps_filter_box_options .tsinf_search_slug_line
+{
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.tsinf-db-export-main-page-wrapper  #tssesl_gps_filter_box_options .tsinf_search_slug_line .tssesl_gps_filter_box_col
+{
+	max-width: calc(100% - 20px);
+	min-width: 20px;
+}
+
+.tsinf-db-export-main-page-wrapper  #tssesl_gps_filter_box_options .tsinf_search_slug_line .tssesl_gps_filter_box_col.width-95
+{
+	padding: 9px 5px 10px 5px;
+}
+
+.tsinf-db-export-main-page-wrapper  #tssesl_gps_filter_box_options .tsinf_search_slug_line.split_by_lines .tssesl_gps_filter_box_col.width-5
+{
+	display: flex;
+}
+
+.tsinf-db-export-main-page-wrapper  #tssesl_gps_filter_box_options .tsinf_search_slug_line.split_by_lines .tssesl_gps_filter_box_col.width-5 .option_split_by_table
+{
+	align-self: center;
+}
+
+
+
+
+
+
+
+

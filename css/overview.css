@@ -1,0 +1,126 @@
+.tsinf_comfortdb_full_text_search
+{
+	box-sizing: border-box;
+	display: block;
+	font-size: 20px;
+	padding: 15px;
+	width: calc(100% - 20px);
+}
+
+#tsinf_comfortdb_table_overview tr td .tsinf-progress-bar
+{
+	display: inline-block;
+	height: 15px;
+	margin: 10px 0 15px 0;
+}
+
+.tsinf_comfortdb_table_list
+{
+	color: black;
+	margin-right: 20px;
+}
+
+.tsinf_comfortdb_table_list:after
+{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.tsinf_comfortdb_table_list .tsinf_comfortdb_table_list_item
+{
+	background: white;
+	-webkit-box-shadow: 4px 4px 6px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 4px 6px -4px rgba(0,0,0,0.75);
+	box-shadow: 4px 4px 6px -4px rgba(0,0,0,0.75);
+	box-sizing: border-box;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.tsinf_comfortdb_table_list .tsinf_comfortdb_table_list_item.list
+{
+	padding: 15px;
+}
+
+.tsinf_comfortdb_table_list .tsinf_comfortdb_table_list_item.list:after
+{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.tsinf_comfortdb_table_list .tsinf_comfortdb_table_list_item.list .tsinf_comfortdb_table_name
+{
+	float: left;
+	width: 70%;
+}
+
+.tsinf_comfortdb_table_list .tsinf_comfortdb_table_list_item.list .tsinf_comfortdb_row_count
+{
+	float: right;
+	text-align: right;
+	width: 25%;
+}
+
+.tsinf_comfortdb_table_list .tsinf_comfortdb_table_list_item.box
+{
+	float: left;
+	margin-right: 20px;
+	padding: 15px;
+	height: 155px;
+	width: 280px;
+}
+
+.tsinf_comfortdb_table_list .tsinf_comfortdb_table_list_item.box .tsinf_comfortdb_table_name
+{
+	display: block;
+	font-size: 24px;
+	height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tsinf_comfortdb_table_list .tsinf_comfortdb_table_list_item.box .tsinf_comfortdb_row_count
+{
+	text-align: right;
+}
+
+#tsinf_comfortdb_table_overview .tsinf_comfortdb_colhead_engine,
+#tsinf_comfortdb_table_overview .tsinf_comfortdb_colhead_entries,
+#tsinf_comfortdb_table_overview .tsinf_comfortdb_colhead_size
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#tsinf_comfortdb_table_overview .tsinf_comfortdb_colhead_engine,
+#tsinf_comfortdb_table_overview .tsinf_comfortdb_engine
+{
+	text-align: center;
+}
+
+#tsinf_comfortdb_table_overview .tsinf_comfortdb_colhead_entries,
+#tsinf_comfortdb_table_overview .tsinf_comfortdb_colhead_size,
+#tsinf_comfortdb_table_overview .tsinf_comfortdb_used_space,
+#tsinf_comfortdb_table_overview .tsinf_comfortdb_row_count
+{
+	text-align: right;
+}
+
+#tsinf_comfortdb_table_overview .tsinf_comfortdb_table_overview_row .tsinf_loadmeta_link,
+#tsinf_comfortdb_table_overview .tsinf_comfortdb_table_overview_row .tsinf_comfortdb_options .export_to_csv
+{
+	color: #0073aa;
+	cursor: pointer;
+}
+
+#tsinf_comfortdb_table_overview .tsinf_comfortdb_table_overview_row .tsinf_comfortdb_options .export_to_csv:hover,
+#tsinf_comfortdb_table_overview .tsinf_comfortdb_table_overview_row .tsinf_comfortdb_options .export_to_csv:active
+{
+	color: #006799;
+}
+
+
+

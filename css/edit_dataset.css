@@ -1,0 +1,211 @@
+.tsinf_comfortdb_plugin_edit_dataset_row
+{
+    background: rgba(0,0,0,0.9);
+    box-sizing: border-box;
+    clear: both;
+    margin: 15px;
+    padding: 15px;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row:after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row > *
+{
+    display: block;
+    float: left;
+    font-size: 18px;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_edit_dataset_label
+{
+    color: white;
+    height: 25px;
+    line-height: 22px;
+    padding: 3px 0;
+    position: relative;
+    top: 2px;
+    width: 25%;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_edit_dataset_label .label_meta_container
+{
+    box-sizing: border-box;
+    clear: both;
+    display: block;
+    overflow: hidden;
+    padding-right: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_edit_dataset_label .label_meta_container:after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_edit_dataset_label .label_meta_container .label_meta
+{
+    display: block;
+    float: left;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_edit_dataset_label .label_meta_container .label_meta:after
+{
+    color: white;
+    content: " | ";
+    margin: 0 5px;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_edit_dataset_label .label_meta_container > span:last-child:after
+{
+    content: "";
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_edit_dataset_label .label_primary_key
+{
+    color: #cdb79e;
+    display: block;
+    font-size: 10px;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_edit_dataset_label .label_autoinc
+{
+    color: white;
+    display: block;
+    font-size: 10px;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_edit_dataset_edit_field
+{
+    margin-right: 4%;
+    width: 55%;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_edit_dataset_is_null_checkbox
+{
+	position: relative;
+	margin-right: 20px;
+	top: 4px;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_edit_dataset_is_null_label
+{
+	color: white;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_edit_dataset_options
+{
+    height: 25px;
+    line-height: 22px;
+    padding: 10px 0;
+    position: relative;
+    top: 2px;
+    width: 15%;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_html_allowed_container
+{
+    clear: both;
+    color: white;
+    margin-top: 5px;
+    text-align: right;
+    width: 80%;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_row .tsinf_comfortdb_plugin_html_allowed_container > label
+{
+    position: relative;
+    top: -2px;
+}
+
+.tsinf_comfortdb_plugin_result_message
+{
+    background: white;
+    box-sizing: border-box;
+    clear: both;
+    margin: 15px;
+    padding: 5px;
+}
+
+.tsinf_comfortdb_plugin_result_message.success
+{
+    color: #299a0b;
+}
+
+.tsinf_comfortdb_plugin_result_message.fail
+{
+    color: #ff0000;
+}
+
+.tsinf_comfortdb_plugin_result_message .tsinf_comfortdb_plugin_result_additional_information,
+.tsinf_comfortdb_plugin_result_message .tsinf_comfortdb_plugin_result_error_message
+{
+    display: block;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_options .tsinf_comfortdb_unlock_item
+{
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+    background: #a90329; /* Old browsers */
+    background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+    border-radius: 5px;
+    box-shadow: 0 -3px 0 rgba(0,0,0,.3) inset;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    height: 25px;
+    overflow: hidden;
+    padding: 4px 10px 6px 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_options .tsinf_comfortdb_unlock_item.unlocked
+{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#52b152+0,008a00+67,005700+83,002400+100 */
+    background: #52b152; /* Old browsers */
+    background: -moz-linear-gradient(top, #52b152 0%, #008a00 67%, #005700 83%, #002400 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #52b152 0%,#008a00 67%,#005700 83%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #52b152 0%,#008a00 67%,#005700 83%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52b152', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
+}
+
+.tsinf_comfortdb_plugin_edit_dataset_options .tsinf_comfortdb_unlock_item:hover
+{
+    box-shadow: 0 -3px 0 rgba(255,255,255,.3) inset;
+}
+
+.tsinf_comfort_db_edit_submit_button_container
+{
+    padding: 0 15px;
+    width: 78%;
+}
+
+.tsinf_comfort_db_edit_submit_button_container:after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.tsinf_comfort_db_edit_submit_button_container .button
+{
+    float: right;
+}

@@ -1,0 +1,170 @@
+.tssesl_gps_filter_box.sticky_header .filter_box_headline,
+.tssesl_gps_filter_box .tsinf_search_slug_line.sticky
+{
+	background: #e3e3e3;
+	box-sizing: border-box;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+	
+	position: -webkit-sticky;
+	position: sticky;
+}
+
+.tssesl_gps_filter_box
+{
+	background: white;
+	border: 1px solid #ddd;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+	box-sizing: border-box;
+	float: left;
+	height: 175px;
+	overflow: scroll;
+	margin: 10px;
+	min-width: 280px;
+	padding: 10px;
+	width: calc(25% - 15px);
+}
+
+.filter-box-sticky-wrap .tssesl_gps_filter_box
+{
+	float: none;
+	height: auto;
+}
+
+.tssesl_gps_filter_box.widefat
+{
+	margin: 0;
+	width: 100%;
+}
+
+.tssesl_gps_filter_box .filter_box_headline
+{
+	font-weight: bold;
+	margin: 0 0 12px 0;
+}
+
+.tssesl_gps_filter_box .filter_box_headline.blue
+{
+	background: #0073aa;
+	color: white;
+	padding: 0;
+}
+
+.tssesl_gps_filter_box > .tsinf_search_slug_line
+{
+	box-sizing: border-box;
+	display: flex;
+}
+
+.tssesl_gps_filter_box .tsinf_search_slug_line.hover,
+.tssesl_gps_filter_box .tsinf_search_slug_line.hover.selected
+{
+	background: rgba(0,115,170, 0.8) !important;
+	color: white !important;
+	cursor: pointer;
+}
+
+.tssesl_gps_filter_box .tsinf_search_slug_line.hover a,
+.tssesl_gps_filter_box .tsinf_search_slug_line.hover a:link,
+.tssesl_gps_filter_box .tsinf_search_slug_line.hover a:visited
+{
+	color: white !important;
+}
+ 
+.tssesl_gps_filter_box .tsinf_search_slug_line.selected
+{ 
+	background: #ceffce !important;
+}
+
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col
+{
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.tssesl_gps_filter_box .tsinf_search_slug_line.text-center,
+.tssesl_gps_filter_box .tssesl_gps_filter_box_col.text-center
+{
+	text-align: center;
+}
+
+.filter-box-sticky-wrap.width-5,
+.tssesl_gps_filter_box.width-5,
+.tssesl_gps_filter_box .width-5
+{
+	width: 5%;
+}
+
+.filter-box-sticky-wrap.width-10,
+.tssesl_gps_filter_box.width-10,
+.tssesl_gps_filter_box .width-10
+{
+	width: 10%;
+}
+
+.filter-box-sticky-wrap.width-20,
+.tssesl_gps_filter_box.width-20,
+.tssesl_gps_filter_box .width-20
+{
+	width: 20%;
+}
+
+.filter-box-sticky-wrap.width-30,
+.tssesl_gps_filter_box.width-30,
+.tssesl_gps_filter_box .width-30
+{
+	width: 30%;
+}
+
+.filter-box-sticky-wrap.width-40,
+.tssesl_gps_filter_box.width-40,
+.tssesl_gps_filter_box .width-40
+{
+	width: 40%;
+}
+
+.filter-box-sticky-wrap.width-50,
+.tssesl_gps_filter_box.width-50,
+.tssesl_gps_filter_box .width-50
+{
+	width: 50%;
+}
+
+.filter-box-sticky-wrap.width-60,
+.tssesl_gps_filter_box.width-60,
+.tssesl_gps_filter_box .width-60
+{
+	width: 60%;
+}
+
+.filter-box-sticky-wrap.width-70,
+.tssesl_gps_filter_box.width-70,
+.tssesl_gps_filter_box .width-70
+{
+	width: 70%;
+}
+
+.filter-box-sticky-wrap.width-80,
+.tssesl_gps_filter_box.width-80,
+.tssesl_gps_filter_box .width-80
+{
+	width: 80%;
+}
+
+.filter-box-sticky-wrap.width-90,
+.tssesl_gps_filter_box.width-90,
+.tssesl_gps_filter_box .width-90
+{
+	width: 90%;
+}
+
+.filter-box-sticky-wrap.width-100,
+.tssesl_gps_filter_box.width-100,
+.tssesl_gps_filter_box .width-100
+{
+	width: 100%;
+}
+
